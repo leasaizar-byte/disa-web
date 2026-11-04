@@ -1,0 +1,166 @@
+{
+ "style": {
+  "grid": 24,
+  "padding": 2,
+  "stroke": {
+   "16": 2.25,
+   "20": 2,
+   "24": 1.75,
+   "32": 1.5
+  },
+  "linecap": "round",
+  "linejoin": "round",
+  "accent": "#FBD300",
+  "base": "#16478A"
+ },
+ "categories": [
+  {
+   "name": "Estaciones y servicios",
+   "icons": [
+    "icon-estacion-servicio.svg",
+    "icon-surtidor.svg",
+    "icon-ubicacion.svg",
+    "icon-mapa.svg",
+    "icon-localizador.svg",
+    "icon-horarios.svg",
+    "icon-lavadero.svg",
+    "icon-aire-agua.svg",
+    "icon-banos.svg",
+    "icon-cajero.svg",
+    "icon-wifi.svg",
+    "icon-cafe.svg",
+    "icon-tienda-disa-shop.svg",
+    "icon-delivery.svg",
+    "icon-cargador-electrico.svg"
+   ]
+  },
+  {
+   "name": "Combustibles y vehículos",
+   "icons": [
+    "icon-combustible-nafta.svg",
+    "icon-combustible-gasoil.svg",
+    "icon-combustible-premium.svg",
+    "icon-combustible-aviacion.svg",
+    "icon-combustible-marino.svg",
+    "icon-auto.svg",
+    "icon-moto.svg",
+    "icon-camion.svg",
+    "icon-flota.svg"
+   ]
+  },
+  {
+   "name": "Lubricantes y Centro Técnico",
+   "icons": [
+    "icon-gota-aceite.svg",
+    "icon-analisis-laboratorio.svg",
+    "icon-probeta.svg",
+    "icon-diagnostico-equipos.svg",
+    "icon-ficha-tecnica.svg",
+    "icon-hoja-seguridad.svg",
+    "icon-descargar-pdf.svg",
+    "icon-planta.svg",
+    "icon-logistica.svg"
+   ]
+  },
+  {
+   "name": "Agro (FERTEC)",
+   "icons": [
+    "icon-hoja.svg",
+    "icon-planta-brote.svg",
+    "icon-cultivo.svg",
+    "icon-fertilizante-liquido.svg",
+    "icon-nutrientes.svg"
+   ]
+  },
+  {
+   "name": "Aviación y marino",
+   "icons": [
+    "icon-avion.svg",
+    "icon-ancla.svg",
+    "icon-barco.svg"
+   ]
+  },
+  {
+   "name": "Promociones",
+   "icons": [
+    "icon-cupon.svg",
+    "icon-descuento.svg",
+    "icon-regalo.svg",
+    "icon-sorteo.svg",
+    "icon-premio.svg",
+    "icon-auto-0km.svg",
+    "icon-millas.svg",
+    "icon-tarjeta.svg",
+    "icon-codigo-qr.svg",
+    "icon-celular.svg",
+    "icon-camara.svg",
+    "icon-viaje.svg",
+    "icon-canje.svg",
+    "icon-deslizar.svg"
+   ]
+  },
+  {
+   "name": "Prevención y empresa",
+   "icons": [
+    "icon-escudo.svg",
+    "icon-casco.svg",
+    "icon-reglas.svg",
+    "icon-alerta.svg",
+    "icon-medio-ambiente.svg",
+    "icon-calidad-sello.svg",
+    "icon-equipo-personas.svg",
+    "icon-linea-tiempo.svg",
+    "icon-globo-espana.svg",
+    "icon-documento.svg",
+    "icon-canal-denuncia.svg"
+   ]
+  },
+  {
+   "name": "Contacto y redes",
+   "icons": [
+    "icon-telefono.svg",
+    "icon-correo.svg",
+    "icon-direccion.svg",
+    "icon-mensaje.svg",
+    "icon-facebook.svg",
+    "icon-instagram.svg",
+    "icon-youtube.svg",
+    "icon-compartir.svg",
+    "icon-enlace.svg"
+   ]
+  },
+  {
+   "name": "Interfaz",
+   "icons": [
+    "icon-menu.svg",
+    "icon-cerrar.svg",
+    "icon-buscar.svg",
+    "icon-filtros.svg",
+    "icon-flecha-arriba.svg",
+    "icon-flecha-abajo.svg",
+    "icon-flecha-izquierda.svg",
+    "icon-flecha-derecha.svg",
+    "icon-chevron-abajo.svg",
+    "icon-chevron-derecha.svg",
+    "icon-mas.svg",
+    "icon-menos.svg",
+    "icon-check.svg",
+    "icon-info.svg",
+    "icon-advertencia.svg",
+    "icon-error.svg",
+    "icon-play.svg",
+    "icon-pausa.svg",
+    "icon-sonido.svg",
+    "icon-sonido-off.svg",
+    "icon-expandir.svg",
+    "icon-bajar-descargar.svg",
+    "icon-abrir-externo.svg",
+    "icon-usuario.svg",
+    "icon-calendario.svg",
+    "icon-reloj.svg",
+    "icon-favorito.svg",
+    "icon-cargando.svg"
+   ]
+  }
+ ]
+}

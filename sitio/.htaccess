@@ -1,0 +1,17 @@
+ErrorDocument 404 /404.html
+RewriteEngine On
+RewriteRule ^conoce/?$ /conoce-disa.html [R=301,L,NE]
+RewriteRule ^contacto/?$ /contacto.html [R=301,L,NE]
+RewriteRule ^prevencion/?$ /prevencion.html [R=301,L,NE]
+RewriteRule ^productos/red-estaciones/?$ /red-de-estaciones.html [R=301,L,NE]
+RewriteRule ^productos/red-estaciones/combustibles/?$ /combustibles.html [R=301,L,NE]
+RewriteRule ^productos/red-estaciones/localizador/?$ /red-de-estaciones.html#localizador [R=301,L,NE]
+RewriteRule ^productos/lubricantes/?$ /lubricantes.html [R=301,L,NE]
+RewriteRule ^productos/agroindustrial/fertilizantes/?$ /fertec.html [R=301,L,NE]
+RewriteRule ^productos/promociones/?$ /promociones.html [R=301,L,NE]
+RewriteRule ^productos/promociones/18881/tu-experiencia-disa/?$ /promo-tu-experiencia-disa.html [R=301,L,NE]
+RewriteRule ^productos/promociones/18882/carga-gana-0-km/?$ /promo-carga-y-gana-0-km.html [R=301,L,NE]
+RewriteRule ^productos/promociones/18885/millas-triples-itau/?$ /promo-millas-triples-itau.html [R=301,L,NE]
+RewriteRule ^productos/promociones/17082/disa-te-lleva-espana/?$ /promo-disa-te-lleva-a-espana.html [R=301,L,NE]
+RewriteRule ^productos/promociones/15403/canje-millas-itau/?$ /promo-canje-millas-itau.html [R=301,L,NE]
+RewriteRule ^productos/promociones/15402/canje-metros-oca/?$ /promo-canje-metros-oca.html [R=301,L,NE]

@@ -1,0 +1,198 @@
+[
+  {
+    "slug": "tu-experiencia-disa",
+    "titulo": "Tu experiencia DISA",
+    "estado": "vigente",
+    "overline": "Sorteo · 120 tanques de combustible",
+    "bajada": "Completá la encuesta sobre tu experiencia en nuestra red de Estaciones y participá por uno de los 120 tanques de combustible.",
+    "resumen": "En DISA queremos conocer tu opinión sobre tu experiencia en nuestra red de Estaciones. Por eso te invitamos a participar de la promoción «Tu Experiencia DISA», donde sortearemos 120 tanques de combustible entre quienes completen la encuesta.",
+    "cifra": "120",
+    "cifra_unidad": "tanques",
+    "pasos": [
+      "Escaneá el código QR disponible en nuestras Estaciones.",
+      "Respondé la encuesta.",
+      "Listo: ya estás participando."
+    ],
+    "cta": {
+      "texto": "Encontrá tu estación",
+      "href": "red-de-estaciones.html#localizador"
+    },
+    "bases": {
+      "tipo": "pdf",
+      "href": "docs/bases-tu-experiencia-disa.pdf"
+    },
+    "imagen": "promo-tu-experiencia-disa",
+    "imagen_alt": "Pieza de la promoción: «En DISA, tu experiencia nos importa. Sorteamos 120 tanques gratis. Cargá, escaneá y participá».",
+    "legal": "Participación sujeta a las bases y condiciones de la promoción."
+  },
+  {
+    "slug": "carga-y-gana-0-km",
+    "titulo": "¡Cargá y ganá un 0 km!",
+    "estado": "vigente",
+    "overline": "Sorteo · Estaciones adheridas",
+    "bajada": "Cargá en una Estación DISA adherida, escaneá y completá tus datos para participar por un 0 km.",
+    "resumen": "Cargá en una Estación DISA adherida, escaneá el código y completá tus datos para participar por un 0 km.",
+    "cifra": "0",
+    "cifra_unidad": "km",
+    "pasos": [
+      "Cargá en una Estación DISA adherida.",
+      "Escaneá el código QR.",
+      "Completá tus datos y participá por un 0 km."
+    ],
+    "estaciones": [
+      "Luis A. de Herrera 600 y Sarandí, San José",
+      "Ruta 5 km 97 esq. Av. José P. Varela, Florida",
+      "Ruta 8 km 29.500, Pando",
+      "Franklin Delano Roosevelt esq. Chiossi, Punta del Este",
+      "Av. Italia 5775, Montevideo",
+      "Ruta 1 y Dr. Luis Cassanello, Colonia",
+      "Av. Italia 5695, Montevideo",
+      "Av. Wilson Ferreira Aldunate (ex Camino Carrasco) esq. Espínola, Camino Carrasco",
+      "Cno. Maldonado 5703, Montevideo",
+      "Rambla Baltasar Brum 2746 esq. San Fructuoso, Montevideo",
+      "Ruta 1 km 31.700, Rincón de la Bolsa",
+      "Av. Giannattasio 8300, Ciudad de la Costa",
+      "Ruta 10 km 131, Punta Ballena",
+      "Av. Italia 4776 esq. Valencia, Montevideo",
+      "Inés Durán 1006 esq. G. Ruiz, Trinidad",
+      "Ruta 3 y Bv. A. Saravia, San José",
+      "Artigas 999 y Rincón, Salto",
+      "Paulina Laredo 1112 esq. Ruta 5 km 182,30, Durazno",
+      "Av. al Parque Roosevelt s/n, Barra de Carrasco"
+    ],
+    "cta": {
+      "texto": "Ver estaciones adheridas",
+      "href": "#t-adheridas"
+    },
+    "bases": {
+      "tipo": "pdf",
+      "href": "docs/bases-carga-y-gana-0-km.pdf"
+    },
+    "imagen": "promo-carga-y-gana-0-km",
+    "imagen_alt": "Pieza de la promoción: «Cargá y ganá un 0 km», con dos autos y cientos de vales de combustible.",
+    "legal": "Participación sujeta a las bases y condiciones de la promoción."
+  },
+  {
+    "slug": "millas-triples-itau",
+    "titulo": "Millas Triples con Itaú",
+    "estado": "vigente",
+    "overline": "Itaú Volar · Millas x3",
+    "fechas": "Del 15 de octubre al 15 de diciembre",
+    "bajada": "Del 15 de octubre al 15 de diciembre, pagando con billetera digital y tarjetas Volar, triplicá tus millas en nuestra red de Estaciones.",
+    "resumen": "Desde el 15 de octubre al 15 de diciembre, pagando a través de billetera digital con tarjetas de crédito y débito Volar, triplicá tus millas en nuestra red de Estaciones.",
+    "cifra": "x3",
+    "cifra_unidad": "millas",
+    "pasos": [
+      "Cargá en nuestra red de Estaciones.",
+      "Pagá con billetera digital usando tu tarjeta de crédito o débito Volar.",
+      "Sumá el triple de millas."
+    ],
+    "aliados": [
+      "Itaú",
+      "Volar"
+    ],
+    "cta": {
+      "texto": "Encontrá tu estación",
+      "href": "red-de-estaciones.html#localizador"
+    },
+    "bases": {
+      "tipo": "externo",
+      "texto": "Condiciones en itau.com.uy",
+      "href": "https://www.itau.com.uy"
+    },
+    "imagen": "promo-millas-triples-itau",
+    "imagen_alt": "Pieza de la promoción Millas x3 de Itaú Volar en Estaciones DISA, del 15 de octubre al 15 de diciembre.",
+    "legal": "Condiciones en itau.com.uy."
+  },
+  {
+    "slug": "canje-millas-itau",
+    "titulo": "Canje de millas Itaú",
+    "estado": "permanente",
+    "overline": "Canje · Itaú Volar",
+    "bajada": "Canjeá tus millas Itaú por cupones de combustible y llená el tanque en todas las estaciones con DISA Flota.",
+    "resumen": "Ahora tus millas de Itaú las podés canjear para llenar el tanque de tu auto en todas las estaciones con DISA Flota.",
+    "pasos": [
+      "Ingresá a www.itauvolar.com.uy.",
+      "Canjeá tus millas por cupones de $ 500, $ 1.500 y $ 2.500 en naftas Super y Premium, y de $ 2.000 en gasoil.",
+      "Usá tus cupones en todas las estaciones con DISA Flota."
+    ],
+    "aliados": [
+      "Itaú Volar"
+    ],
+    "cta": {
+      "texto": "Canjeá en itauvolar.com.uy",
+      "href": "https://www.itauvolar.com.uy/"
+    },
+    "bases": {
+      "tipo": "externo",
+      "texto": "Bases y condiciones en itauvolar.com.uy",
+      "href": "https://www.itauvolar.com.uy/"
+    },
+    "imagen": "promo-canje-millas-itau",
+    "imagen_alt": "Pieza del canje: «Canjeá tus millas Itaú por nafta o gasoil en DISA».",
+    "legal": "Por mayor información, ver bases y condiciones en www.itauvolar.com.uy."
+  },
+  {
+    "slug": "canje-metros-oca",
+    "titulo": "Canje de metros OCA",
+    "estado": "permanente",
+    "overline": "Canje · OCA Metraje",
+    "bajada": "Canjeá tus metros de OCA por cupones de combustible en todas las estaciones con DISA Flota.",
+    "resumen": "Ahora tus metros de OCA los podés canjear para llenar el tanque de tu auto en todas las estaciones con DISA Flota.",
+    "pasos": [
+      "Ingresá a metraje.oca.com.uy.",
+      "Canjeá tus metros por cupones de $ 500 y $ 1.500 en naftas Super y Premium, y de $ 1.000 en gasoil.",
+      "Usá tus cupones en todas las estaciones con DISA Flota."
+    ],
+    "aliados": [
+      "OCA"
+    ],
+    "cta": {
+      "texto": "Canjeá en metraje.oca.com.uy",
+      "href": "https://metraje.oca.com.uy/"
+    },
+    "bases": {
+      "tipo": "externo",
+      "texto": "Bases y condiciones en OCA",
+      "href": "https://metraje.oca.com.uy/site/view-products/0/0?search=DISA"
+    },
+    "imagen": "promo-canje-metros-oca",
+    "imagen_alt": "Pieza del canje: «¡Cargá nafta y gasoil con tus Metros de OCA!».",
+    "legal": "Por mayor información, ver bases y condiciones en metraje.oca.com.uy."
+  },
+  {
+    "slug": "disa-te-lleva-a-espana",
+    "titulo": "DISA te lleva a España",
+    "estado": "finalizada",
+    "overline": "Sorteo · Finalizado",
+    "bajada": "Promoción finalizada. Conocé a las personas ganadoras de los tres sorteos.",
+    "resumen": "Esta promoción ha finalizado. A continuación, compartimos la lista de ganadores.",
+    "ganadores": [
+      {
+        "sorteo": "diciembre 2025",
+        "texto": "¡Felicitamos a la primera ganadora!",
+        "nombre": "Margarita Michelena",
+        "ci": "4.842.XXX-X"
+      },
+      {
+        "sorteo": "abril 2026",
+        "texto": "¡Felicitamos al segundo ganador!",
+        "nombre": "Valentín Luzuriaga",
+        "ci": "3.307.XXX-X"
+      },
+      {
+        "sorteo": "agosto 2026",
+        "texto": "¡Felicitamos a la tercera ganadora!",
+        "nombre": "Tatiana Crespo",
+        "ci": "5.328.XXX-X"
+      }
+    ],
+    "bases": {
+      "tipo": "pdf",
+      "href": "docs/bases-disa-te-lleva-a-espana.pdf"
+    },
+    "imagen": "promo-disa-te-lleva-a-espana",
+    "imagen_alt": "Pieza de la promoción «DISA te lleva a España», junto a Itaú Volar.",
+    "legal": "Promoción finalizada. Ver bases y condiciones completas."
+  }
+]

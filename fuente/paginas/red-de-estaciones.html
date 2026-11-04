@@ -1,0 +1,98 @@
+<!-- ===== INICIO Portada de página ===== -->
+<section class="d-hero theme-brand s-page-hero" aria-labelledby="t-page">
+  <div class="d-hero__media s-page-hero__bg" aria-hidden="true">{{hero_waves}}</div>
+  <div class="s-page-hero__ala" aria-hidden="true"><svg data-enter="rise" style="--enter-delay:200ms" viewBox="0 -40 520 248" preserveAspectRatio="none" focusable="false"><path d="M40 0H400C470 0 505-14 520-40V208H40A40 40 0 0 1 0 168V40A40 40 0 0 1 40 0Z" fill="#FBD300"/></svg></div>
+  <div class="d-container s-page-hero__grid">
+    <div class="s-page-hero__content">
+      <nav class="d-breadcrumb s-breadcrumb" aria-label="Migas de pan" data-enter="up" style="--enter-delay:100ms"><ol><li><a href="index.html">Inicio</a></li><li aria-current="page">Red de Estaciones</li></ol></nav>
+      <p class="d-overline" data-enter="up" style="--enter-delay:150ms">Red de Estaciones DISA</p>
+      <h1 class="d-h1 d-split" id="t-page" data-enter="words" style="--enter-delay:250ms">Descubrí tu estación de servicio más cercana</h1>
+      <p class="d-lead" data-enter="up" style="--enter-delay:550ms">En nuestras 93 estaciones de servicio podés cargar combustible, lavar o mantener a punto tu vehículo. Además, nuestras tiendas te ofrecen una amplia gama de productos para hacer más confortable tu día a día.</p>
+      <div class="d-cluster" data-enter-stagger style="--enter-delay:700ms">
+        <a class="d-btn d-btn--lg" href="#localizador"><x-icon name="localizador" size="20">Encontrá tu estación</a>
+        <a class="d-btn d-btn--lg d-btn--outline" href="combustibles.html">Ver combustibles</a>
+      </div>
+    </div>
+    <div class="s-page-hero__visual" data-enter="ala" style="--enter-delay:400ms">
+      <figure class="s-frame"><div class="s-frame__img"><x-img src="estacion-disa" alt="Estación de servicio DISA con marquesina y surtidores" sizes="(min-width: 1024px) 460px, 90vw" eager></div></figure>
+      <p class="d-sticker s-page-hero__sticker" data-enter="pop" style="--enter-delay:1000ms">93 estaciones</p>
+    </div>
+  </div>
+</section>
+<!-- ===== FIN Portada de página ===== -->
+
+<!-- ===== INICIO Localizador ===== -->
+<section class="d-section" id="localizador" aria-labelledby="t-loc">
+  <div class="d-container">
+    <div class="s-section-head s-section-head--split">
+      <div>
+        <p class="d-overline" data-reveal="fade-up">Localizador</p>
+        <h2 class="d-h2 d-split" id="t-loc">Encontrá tu estación en el mapa</h2>
+      </div>
+      <p class="d-lead" data-reveal="fade-up">Buscá por ciudad o dirección y mirá cómo llegar. Si permitís la ubicación, el mapa te muestra las estaciones más cercanas.</p>
+    </div>
+    <div class="s-locator" data-locator="https://www.disagrupo.es/estaciones/uruguay/mapa/?embed=1" data-reveal="clip">
+      <div class="s-locator__facade">
+        <img src="img/marca/ilustraciones/mapa-uruguay-pins.svg" width="620" height="640" alt="" loading="lazy" decoding="async">
+        <p>El localizador oficial se carga desde el sitio del Grupo DISA.</p>
+        <button class="d-btn d-btn--lg" type="button" data-locator-load><x-icon name="mapa" size="20">Abrir el localizador</button>
+      </div>
+    </div>
+    <p class="s-locator__note"><x-icon name="abrir-externo" size="16"> ¿Preferís verlo en pantalla completa? <a href="https://www.disagrupo.es/estaciones/uruguay/mapa/" target="_blank" rel="noopener">Abrí el localizador en una pestaña nueva</a>.</p>
+  </div>
+</section>
+<!-- ===== FIN Localizador ===== -->
+
+<!-- ===== INICIO En cada estación ===== -->
+<section class="d-section s-section--soft" aria-labelledby="t-services">
+  <div class="d-container">
+    <div class="s-section-head">
+      <p class="d-overline" data-reveal="fade-up">En cada estación</p>
+      <h2 class="d-h2 d-split" id="t-services">Todo para tu vehículo y tu día a día</h2>
+    </div>
+    <ul class="s-tiles" data-stagger>
+      <li><div class="s-tile"><x-icon name="surtidor" bi><h3 class="d-h4">Combustible</h3><p>La gama completa de naftas y gasoil para tu vehículo particular o de empresa.</p><a class="d-link d-link--arrow" href="combustibles.html">Ver combustibles <x-icon name="flecha-derecha" size="20"></a></div></li>
+      <li><div class="s-tile"><x-icon name="lavadero" bi><h3 class="d-h4">Lavado y mantenimiento</h3><p>Lavá o mantené a punto tu vehículo en nuestras estaciones.</p></div></li>
+      <li><div class="s-tile"><x-icon name="tienda-disa-shop" bi><h3 class="d-h4">Tiendas DISA Shop</h3><p>Una amplia red de tiendas que transforma el concepto de tienda de conveniencia: un espacio cálido y de encuentro.</p></div></li>
+      <li><div class="s-tile"><x-icon name="premio" bi><h3 class="d-h4">Promociones</h3><p>Sorteos, millas y canjes cuando cargás en nuestra red de Estaciones.</p><a class="d-link d-link--arrow" href="promociones.html">Ver promociones <x-icon name="flecha-derecha" size="20"></a></div></li>
+    </ul>
+  </div>
+</section>
+<!-- ===== FIN En cada estación ===== -->
+
+<!-- ===== INICIO DISA Shop ===== -->
+<section class="d-section" aria-labelledby="t-shop">
+  <div class="d-container s-split">
+    <div class="s-shop-visual" data-reveal="clip">
+      <x-img src="disa-shop" alt="Logo de DISA Shop" sizes="(min-width: 1024px) 40vw, 80vw">
+    </div>
+    <div class="s-feature">
+      <p class="d-overline" data-reveal="fade-up">DISA Shop</p>
+      <h2 class="d-h2 d-split" id="t-shop">Un espacio cálido y de encuentro</h2>
+      <p data-reveal="fade-up">En Uruguay contamos con una amplia red de tiendas DISA Shop que transforman el concepto de tienda de conveniencia, para brindarles a nuestros clientes un espacio cálido y de encuentro.</p>
+      <div data-reveal="fade-up"><a class="d-btn d-btn--secondary" href="#localizador">Encontrá tu estación</a></div>
+    </div>
+  </div>
+</section>
+<!-- ===== FIN DISA Shop ===== -->
+
+<!-- ===== INICIO Combustibles (resumen) ===== -->
+<section class="d-section theme-night s-fuel-teaser" aria-labelledby="t-fuels">
+  <svg class="s-numbers__bg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice" focusable="false" aria-hidden="true"><g class="s-waves__a" data-loop fill="none" stroke="#1F6AB3" stroke-opacity=".28" stroke-width="1.5"><path d="M-80 760C384 710 672 810 1056 760S1632 710 2000 780"/><path d="M-80 786C384 733 672 839 1056 786S1632 733 2000 807"/><path d="M-80 812C384 756 672 868 1056 812S1632 756 2000 834"/></g></svg>
+  <div class="d-container">
+    <div class="s-section-head s-section-head--split">
+      <div>
+        <p class="d-overline" data-reveal="fade-up">Combustibles</p>
+        <h2 class="d-h2 d-split" id="t-fuels">Cuatro combustibles, una misma calidad</h2>
+      </div>
+      <a class="d-btn d-btn--outline" href="combustibles.html">Ver fichas de combustibles</a>
+    </div>
+    <ul class="s-fuel-chips" data-stagger>
+      <li class="s-fuel-chip s-fuel--95"><span class="s-fuel__name">Super</span><span class="s-fuel__num">95<small>RON</small></span></li>
+      <li class="s-fuel-chip s-fuel--97"><span class="s-fuel__name">Premium</span><span class="s-fuel__num">97<small>RON</small></span></li>
+      <li class="s-fuel-chip s-fuel--50"><span class="s-fuel__name">Gas Oil</span><span class="s-fuel__num">50<small>S</small></span></li>
+      <li class="s-fuel-chip s-fuel--10"><span class="s-fuel__name">Gas Oil</span><span class="s-fuel__num">10<small>S</small></span></li>
+    </ul>
+  </div>
+</section>
+<!-- ===== FIN Combustibles (resumen) ===== -->

@@ -1,0 +1,57 @@
+<!-- ===== INICIO Header ===== -->
+<header class="d-header" id="arriba">
+  <div class="d-container d-header__inner">
+    <a class="d-header__logo" href="index.html" aria-label="DISA Uruguay, ir al inicio">
+      <span class="d-logo-white"><x-logo variant="white"></span>
+      <span class="d-logo-color"><x-logo variant="color"></span>
+    </a>
+    <nav class="d-nav" aria-label="Principal">
+      <ul class="d-nav__list" data-enter-stagger style="--enter-delay:100ms">
+        <li class="d-nav__item">
+          <button class="d-nav__link" type="button" aria-expanded="false" aria-controls="dd-conoce" data-nav="conoce">Conocé DISA <x-icon name="chevron-abajo" size="16"></button>
+          <div class="d-dropdown s-dropdown" id="dd-conoce">
+            <a href="conoce-disa.html"><x-icon name="estacion-servicio" bi><span>Nuestra empresa<small>DISA en Uruguay y nuestro video</small></span></a>
+            <a href="conoce-disa.html#grupo-disa"><x-icon name="linea-tiempo" bi><span>Grupo DISA<small>Más de 90 años de energía</small></span></a>
+            <a href="https://www.disagrupo.es/conoce/canaldenuncia.aspx" target="_blank" rel="noopener"><x-icon name="canal-denuncia" bi><span>Canal de Denuncia<small>Se abre en el sitio del Grupo DISA</small></span></a>
+          </div>
+        </li>
+        <li class="d-nav__item">
+          <button class="d-nav__link" type="button" aria-expanded="false" aria-controls="dd-productos" data-nav="productos">Productos y servicios <x-icon name="chevron-abajo" size="16"></button>
+          <div class="d-dropdown s-dropdown s-dropdown--wide" id="dd-productos">
+            <a href="red-de-estaciones.html"><x-icon name="localizador" bi><span>Red de Estaciones<small>93 estaciones en todo Uruguay</small></span></a>
+            <a href="combustibles.html"><x-icon name="surtidor" bi><span>Combustibles<small>Para particulares, tierra, aire y mar</small></span></a>
+            <a href="lubricantes.html"><x-icon name="gota-aceite" bi><span>Lubricantes Mobil<small>Catálogo y Centro Técnico</small></span></a>
+            <a href="fertec.html"><x-icon name="fertilizante-liquido" bi><span>Fertilizantes FERTEC<small>Soluciones líquidas para el agro</small></span></a>
+          </div>
+        </li>
+        <li class="d-nav__item"><a class="d-nav__link" href="promociones.html" data-nav="promociones">Promociones</a></li>
+        <li class="d-nav__item"><a class="d-nav__link" href="prevencion.html" data-nav="prevencion">Prevención</a></li>
+        <li class="d-nav__item"><a class="d-nav__link" href="contacto.html" data-nav="contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <a class="d-btn d-btn--sm s-header-cta" href="red-de-estaciones.html#localizador" data-enter="fade" style="--enter-delay:400ms"><x-icon name="localizador" size="20">Encontrá tu estación</a>
+    <button class="d-btn d-btn--icon d-btn--ghost d-menu-toggle s-menu-toggle" type="button" aria-expanded="false" aria-controls="menu-movil" aria-label="Abrir menú">
+      <span class="s-burger" aria-hidden="true"><span></span><span></span><span></span></span>
+    </button>
+  </div>
+</header>
+
+<div class="d-mobile-menu s-mobile-menu" id="menu-movil" aria-label="Menú">
+  <nav class="s-mm-nav" aria-label="Menú principal">
+    <a href="index.html" data-nav="inicio">Inicio</a>
+    <a href="conoce-disa.html" data-nav="conoce">Conocé DISA</a>
+    <a href="red-de-estaciones.html">Red de Estaciones</a>
+    <a href="combustibles.html">Combustibles</a>
+    <a href="lubricantes.html">Lubricantes Mobil</a>
+    <a href="fertec.html">Fertilizantes FERTEC</a>
+    <a href="promociones.html" data-nav="promociones">Promociones</a>
+    <a href="prevencion.html" data-nav="prevencion">Prevención DISA</a>
+    <a href="contacto.html" data-nav="contacto">Contacto</a>
+  </nav>
+  <div class="s-mm-foot">
+    <a class="d-btn d-btn--lg s-mm-cta" href="red-de-estaciones.html#localizador"><x-icon name="localizador" size="20">Encontrá tu estación</a>
+    <p class="s-mm-contact"><a class="s-mm-small" href="tel:+59822009920">2200 9920</a> · <a class="s-mm-small" href="mailto:uruguay@disagrupo.uy">uruguay@disagrupo.uy</a></p>
+    <span class="s-mm-bird" aria-hidden="true"><svg class="s-ink-white" viewBox="58 150 160 135" focusable="false"><use href="#lg-colibri-solid"/></svg></span>
+  </div>
+</div>
+<!-- ===== FIN Header ===== -->

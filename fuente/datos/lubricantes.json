@@ -1,0 +1,224 @@
+{
+  "fuente": "https://www.disagrupo.com.uy/productos/lubricantes/ (relevado el 4 de noviembre de 2026)",
+  "categorias": [
+    {
+      "id": "especialidades",
+      "nombre": "Especialidades",
+      "descripcion": "",
+      "productos": [
+        {
+          "nombre": "Fluidtech DOT 4",
+          "ficha": "Especialidades/Fluidtech DOT 4/FichaTecnica/Ficha Tecnica - FLUIDTECH DOT 4.pdf",
+          "hoja": "Especialidades/Fluidtech DOT 4/HojaSeguridad/Hoja de Seguridad - MSDS FLUIDTECH DOT 4.pdf"
+        },
+        {
+          "nombre": "Aditech OT-C+50L Pronto para uso",
+          "ficha": "Especialidades/Aditech OT-C 50L/Ficha Tecnica/Ficha Tecnica - ADITECH OT-C 50L.pdf",
+          "hoja": "Especialidades/Aditech OT-C 50L/Hoja de Seguridad/Hoja de Seguridad - MSDS ADITECH OT-C 50 L.PDF"
+        },
+        {
+          "nombre": "Aditech IT-C 100 V Concentrado",
+          "ficha": "Especialidades/Aditech IT-C 100 V/Ficha Tecnica/Ficha Tecnica - ADITECH IT-C 100V.pdf",
+          "hoja": "Especialidades/Aditech IT-C 100 V/Hoja de Seguridad/Hoja de Seguridad - MSDS ADITECH IT-C 100V.pdf"
+        }
+      ]
+    },
+    {
+      "id": "diesel",
+      "nombre": "Motor diésel",
+      "descripcion": "",
+      "productos": [
+        {
+          "nombre": "M-DELVAC LEGEND 1230",
+          "ficha": "Motor Diesel/M-DELVAC LEGEND 1230/Ficha Tecnica/MOBIL-DELVAC-LEGEND-1200-SERIES_uy.pdf",
+          "hoja": "Motor Diesel/M-DELVAC LEGEND 1230/Hoja de Seguridad/MOBIL DELVAC LEGEND 1230.pdf"
+        },
+        {
+          "nombre": "M-DELVAC LEGEND 1240",
+          "ficha": "Motor Diesel/M-DELVAC LEGEND 1240/Ficha Tecnica/MOBIL-DELVAC-LEGEND-1200-SERIES_uy.pdf",
+          "hoja": "Motor Diesel/M-DELVAC LEGEND 1240/Hoja de Seguridad/MOBIL DELVAC LEGEND 1240.pdf"
+        },
+        {
+          "nombre": "MOBIL DELVAC 1340 F2",
+          "ficha": "Motor Diesel/MOBIL DELVAC 1340 F2/Ficha Tecnica/MOBIL DELVAC 1340 F2_uy.pdf",
+          "hoja": "Motor Diesel/MOBIL DELVAC 1340 F2/Hoja de Seguridad/Mobil Delvac 1340 F2.pdf"
+        },
+        {
+          "nombre": "MOBIL DELVAC LEGEND 1250",
+          "ficha": "Motor Diesel/MOBIL DELVAC LEGEND 1250/Ficha Tecnica/MOBIL-DELVAC-LEGEND-1200-SERIES_uy.pdf",
+          "hoja": "Motor Diesel/MOBIL DELVAC LEGEND 1250/Hoja de Seguridad/MOBIL DELVAC LEGEND 1250.pdf"
+        },
+        {
+          "nombre": "MOBIL DELVAC MODERN 15W40 FP V2",
+          "ficha": "Motor Diesel/MOBIL DELVAC MODERN 15W40 FP V2/Ficha Tecnica/MOBIL-DELVAC-MODERN-15W-40-FULL-PROTECTION-V2_uy.pdf",
+          "hoja": "Motor Diesel/MOBIL DELVAC MODERN 15W40 FP V2/Hoja de Seguridad/Mobil Delvac Modern 15W40 FULL PROTECTION V2.pdf"
+        },
+        {
+          "nombre": "MOBIL DELVAC MODERN 15W40 SD V3",
+          "ficha": "Motor Diesel/MOBIL DELVAC MODERN 15W40 SD V3/Ficha Tecnica/MOBIL-DELVAC-MODERN-15W-40-SUPER-DEFENSE-V3_uy.pdf",
+          "hoja": "Motor Diesel/MOBIL DELVAC MODERN 15W40 SD V3/Hoja de Seguridad/Mobil Delvac Modern 15w40 SD V3.PDF"
+        },
+        {
+          "nombre": "MOBIL DELVAC MX V2 20W50",
+          "ficha": "Motor Diesel/MOBIL DELVAC MX V2 20W50/Ficha Tecnica/Mobil-Delvac-MX-V2-20W-50_uy.pdf",
+          "hoja": "Motor Diesel/MOBIL DELVAC MX V2 20W50/Hoja de Seguridad/MOBIL DELVAC MX V2 20W-50.PDF"
+        },
+        {
+          "nombre": "MOBIL DELVAC XHP EXTRA 10W40",
+          "ficha": "Motor Diesel/MOBIL DELVAC XHP EXTRA 10W40/Ficha Tecnica/MOBIL DELVAC XHP EXTRA 10W40_uy.pdf",
+          "hoja": "Motor Diesel/MOBIL DELVAC XHP EXTRA 10W40/Hoja de Seguridad/MOBIL DELVAC XHP EXTRA 10W40.pdf"
+        }
+      ]
+    },
+    {
+      "id": "livianos",
+      "nombre": "Motores livianos",
+      "descripcion": "",
+      "productos": [
+        {
+          "nombre": "MOBIL 1 ESP 5W30",
+          "ficha": "Motores livianos/MOBIL 1 ESP 5W30/Ficha Tecnica/Mobil-1-ESP-5W-30_uy.pdf",
+          "hoja": "Motores livianos/MOBIL 1 ESP 5W30/Hoja de Seguridad/MOBIL 1 ESP 5W30.pdf"
+        },
+        {
+          "nombre": "MOBIL SUPER 1000 20W-50",
+          "ficha": "Motores livianos/MOBIL SUPER 1000 20W-50/Ficha Tecnica/Mobil-Super-1000-20W-50_uy.pdf",
+          "hoja": "Motores livianos/MOBIL SUPER 1000 20W-50/Hoja de Seguridad/MOBIL SUPER 1000 20W-50.pdf"
+        },
+        {
+          "nombre": "MOBIL SUPER 2000 X1 15W40",
+          "ficha": "Motores livianos/MOBIL SUPER 2000 X1 15W40/Ficha Tecnica/Mobil-Super-2000-X1-15W-40_uy.pdf",
+          "hoja": "Motores livianos/MOBIL SUPER 2000 X1 15W40/Hoja de Seguridad/MOBIL SUPER 2000 X1 15W40.pdf"
+        },
+        {
+          "nombre": "MOBIL SUPER 2000 X3 10W40",
+          "ficha": "Motores livianos/MOBIL SUPER 2000 X3 10W40/Ficha Tecnica/Mobil Super 2000 X3 10W40.pdf",
+          "hoja": "Motores livianos/MOBIL SUPER 2000 X3 10W40/Hoja de Seguridad/MOBIL SUPER 2000 X3 10W-40.PDF"
+        },
+        {
+          "nombre": "MOBIL SUPER 3000 FORM D1 0W20",
+          "ficha": "Motores livianos/MOBIL SUPER 3000 FORM D1 0W20/Ficha Tecnica/Mobil-Super-3000-Formula-D1-Series 5W-30 y 0W-20_uy.pdf",
+          "hoja": "Motores livianos/MOBIL SUPER 3000 FORM D1 0W20/Hoja de Seguridad/MOBIL SUPER 3000 FORM D1 0W20.pdf"
+        },
+        {
+          "nombre": "MOBIL SUPER 3000 FORM D1 5W30",
+          "ficha": "Motores livianos/MOBIL SUPER 3000 FORM D1 5W30/Ficha Tecnica/Mobil-Super-3000-Formula-D1-Series 5W-30 y 0W-20_uy.pdf",
+          "hoja": "Motores livianos/MOBIL SUPER 3000 FORM D1 5W30/Hoja de Seguridad/MOBIL SUPER 3000 FORM D1 5W30.pdf"
+        },
+        {
+          "nombre": "MOBIL SUPER 3000 X3 5W40",
+          "ficha": "Motores livianos/MOBIL SUPER 3000 X3 5W40/Ficha Tecnica/Mobil-Super-3000-X3-5W-40_uy.pdf",
+          "hoja": "Motores livianos/MOBIL SUPER 3000 X3 5W40/Hoja de Seguridad/Mobil Super 3000 X3 5W40.pdf"
+        }
+      ]
+    },
+    {
+      "id": "motos",
+      "nombre": "Motos",
+      "descripcion": "",
+      "productos": [
+        {
+          "nombre": "MOBIL SPECIAL 2T",
+          "ficha": "Motos/MOBIL SPECIAL 2T/Ficha Tecnica/Mobil-Special-2T_uy.pdf",
+          "hoja": "Motos/MOBIL SPECIAL 2T/Hoja de Seguridad/MOBIL SPECIAL 2T.pdf"
+        },
+        {
+          "nombre": "MOBIL SUPER MOTO 4T 20W50",
+          "ficha": "Motos/MOBIL SUPER MOTO 4T 20W50/Ficha Tecnica/Mobil Super Moto 4T 20W50.pdf",
+          "hoja": "Motos/MOBIL SUPER MOTO 4T 20W50/Hoja de Seguridad/MOBIL SUPER MOTO 4T 20W-50.pdf"
+        }
+      ]
+    },
+    {
+      "id": "transmisiones",
+      "nombre": "Transmisiones",
+      "descripcion": "",
+      "productos": [
+        {
+          "nombre": "MOBIL ATF DM",
+          "ficha": "Transmisiones/MOBIL ATF DM/Ficha Tecnica/Mobil ATF DM_uy.pdf",
+          "hoja": "Transmisiones/MOBIL ATF DM/Hoja de Seguridad/ATF D_M.PDF"
+        },
+        {
+          "nombre": "MOBIL HYDRAULIC 10W",
+          "ficha": "Transmisiones/MOBIL HYDRAULIC 10W/Ficha Tecnica/Mobil-Hydraulic-10W_uy.pdf",
+          "hoja": "Transmisiones/MOBIL HYDRAULIC 10W/Hoja de Seguridad/Mobil Hydraulic 10W.pdf"
+        },
+        {
+          "nombre": "MOBIL TRANS HD (10W)",
+          "ficha": "Transmisiones/MOBIL TRANS HD (10W)/Ficha Tecnica/MOBIL TRANS HD (SAE 10W, 30 y 50)_uy.pdf",
+          "hoja": "Transmisiones/MOBIL TRANS HD (10W)/Hoja de Seguridad/MOBILTRANS HD 10W.PDF"
+        },
+        {
+          "nombre": "MOBIL TRANS HD 30",
+          "ficha": "Transmisiones/MOBIL TRANS HD 30/Ficha Tecnica/MOBIL TRANS HD (SAE 10W, 30 y 50)_uy.pdf",
+          "hoja": "Transmisiones/MOBIL TRANS HD 30/Hoja de Seguridad/MOBILTRANS HD 30.PDF"
+        },
+        {
+          "nombre": "MOBIL TRANS HD 50",
+          "ficha": "Transmisiones/MOBIL TRANS HD 50/Ficha Tecnica/MOBIL TRANS HD (SAE 10W, 30 y 50)_uy.pdf",
+          "hoja": "Transmisiones/MOBIL TRANS HD 50/Hoja de Seguridad/MOBILTRANS HD 50.PDF"
+        },
+        {
+          "nombre": "MOBILFLUID 428",
+          "ficha": "Transmisiones/MOBILFLUID 428/Ficha Tecnica/Mobilfluid-428_uy.pdf",
+          "hoja": "Transmisiones/MOBILFLUID 428/Hoja de Seguridad/MOBILFLUID 428.pdf"
+        },
+        {
+          "nombre": "MOBILFLUID 499",
+          "ficha": "Transmisiones/MOBILFLUID 499/Ficha Tecnica/Mobilfluid-499_uy.pdf",
+          "hoja": "Transmisiones/MOBILFLUID 499/Hoja de Seguridad/MOBILFLUID 499 V2.pdf"
+        },
+        {
+          "nombre": "MOBILUBE GX A 80W",
+          "ficha": "Transmisiones/MOBILUBE GX A 80W/Ficha Tecnica/Mobilube-GXA-80W_uy.pdf",
+          "hoja": "Transmisiones/MOBILUBE GX A 80W/Hoja de Seguridad/MOBILUBE GX-A 80W.PDF"
+        },
+        {
+          "nombre": "MOBILUBE HD-A 85W-90",
+          "ficha": "Transmisiones/MOBILUBE HD-A 85W-90/Ficha Tecnica/Mobilube-HD-A-85W-90_uy.pdf",
+          "hoja": "Transmisiones/MOBILUBE HD-A 85W-90/Hoja de Seguridad/MOBILUBE HD-A 85W-90.pdf"
+        },
+        {
+          "nombre": "MOBILUBE HD 80W-90",
+          "ficha": "Transmisiones/MOBILUBE HD 80W-90/Ficha Tecnica/Mobilube-HD 80W90 y 85W140_uy.pdf",
+          "hoja": "Transmisiones/MOBILUBE HD 80W-90/Hoja de Seguridad/MOBILUBE HD 80W-90.pdf"
+        },
+        {
+          "nombre": "MOBILUBE HD 85W-140",
+          "ficha": "Transmisiones/MOBILUBE HD 85W-140/Ficha Tecnica/Mobilube-HD 80W90 y 85W140_uy.pdf",
+          "hoja": "Transmisiones/MOBILUBE HD 85W-140/Hoja de Seguridad/MOBILUBE HD 85W-140.pdf"
+        },
+        {
+          "nombre": "MOBILUBE HD PLUS 85W140",
+          "ficha": "Transmisiones/MOBILUBE HD PLUS 85W140/Ficha Tecnica/Mobilube-HD-Plus-85W140_uy.pdf",
+          "hoja": "Transmisiones/MOBILUBE HD PLUS 85W140/Hoja de Seguridad/MOBILUBE HD PLUS 85W-140.PDF"
+        },
+        {
+          "nombre": "MOBILUBE LS 85W-140",
+          "ficha": "Transmisiones/MOBILUBE LS 85W-140/Ficha Tecnica/Mobilube-LS-85W-140.pdf",
+          "hoja": "Transmisiones/MOBILUBE LS 85W-140/Hoja de Seguridad/MOBILUBE LS 85W-140.pdf"
+        },
+        {
+          "nombre": "MOBILUBE LS 85W-90",
+          "ficha": "Transmisiones/MOBILUBE LS 85W-90/Ficha Tecnica/Mobilube-LS-85W90_uy.pdf",
+          "hoja": "Transmisiones/MOBILUBE LS 85W-90/Hoja de Seguridad/MOBILUBE LS 85W-90.pdf"
+        }
+      ]
+    }
+  ],
+  "catalogos": [
+    {
+      "nombre": "Catálogo Mobil Delvac Transporte",
+      "archivo": "Catalogo_Mobil_Delvac_Transporte.pdf"
+    },
+    {
+      "nombre": "Catálogo Mobil Delvac Agrícolas",
+      "archivo": "Catalogo_Mobil_Delvac_Agricolas.pdf"
+    },
+    {
+      "nombre": "Catálogo Mobil Super Utilitarios",
+      "archivo": "Catalogo_Mobil_Super_Utilitarios.pdf"
+    }
+  ]
+}

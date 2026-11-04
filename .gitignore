@@ -1,0 +1,9 @@
+# Archivos de sistema de macOS
+.DS_Store
+
+# Registro interno del build (se regenera solo)
+fuente/.fotos-cache.json
+
+# Python
+__pycache__/
+*.pyc

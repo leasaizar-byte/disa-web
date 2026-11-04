@@ -1,0 +1,172 @@
+<!-- ===== INICIO Portada de página ===== -->
+<section class="d-hero theme-brand s-page-hero" aria-labelledby="t-page">
+  <div class="d-hero__media s-page-hero__bg" aria-hidden="true">{{hero_waves}}</div>
+  <div class="s-page-hero__ala" aria-hidden="true"><svg data-enter="rise" style="--enter-delay:200ms" viewBox="0 -40 520 248" preserveAspectRatio="none" focusable="false"><path d="M40 0H400C470 0 505-14 520-40V208H40A40 40 0 0 1 0 168V40A40 40 0 0 1 40 0Z" fill="#FBD300"/></svg></div>
+  <div class="d-container s-page-hero__grid">
+    <div class="s-page-hero__content">
+      <nav class="d-breadcrumb s-breadcrumb" aria-label="Migas de pan" data-enter="up" style="--enter-delay:100ms"><ol><li><a href="index.html">Inicio</a></li><li aria-current="page">Contacto</li></ol></nav>
+      <p class="d-overline" data-enter="up" style="--enter-delay:150ms">Contacto</p>
+      <h1 class="d-h1 d-split" id="t-page" data-enter="words" style="--enter-delay:250ms">Estamos cerca de vos</h1>
+      <p class="d-lead" data-enter="up" style="--enter-delay:550ms">Comunicate con DISA Uruguay a través de nuestra área de Gestión Comercial, o escribile directamente a cada sede.</p>
+    </div>
+    <img class="s-page-hero__picto" src="img/marca/pictogramas/picto-contacto.svg" width="96" height="96" alt="" data-enter="pop" style="--enter-delay:600ms">
+  </div>
+</section>
+<!-- ===== FIN Portada de página ===== -->
+
+<!-- ===== INICIO Formulario y contacto directo ===== -->
+<section class="d-section" aria-labelledby="t-form">
+  <div class="d-container s-contact__grid">
+    <div>
+      <div class="s-section-head">
+        <p class="d-overline" data-reveal="fade-up">Escribinos</p>
+        <h2 class="d-h2 d-split" id="t-form">Contanos en qué te podemos ayudar</h2>
+      </div>
+
+      <form class="s-form" id="form-contacto" action="mailto:uruguay@disagrupo.uy" method="post" enctype="text/plain" novalidate data-endpoint="" data-reveal="fade-up">
+        <div class="d-alert d-alert--error s-form__summary" data-form-summary role="alert" tabindex="-1" hidden>
+          <x-icon name="error"><div><strong>Revisá estos campos antes de enviar:</strong><ul></ul></div>
+        </div>
+
+        <fieldset class="s-fieldset">
+          <legend class="d-visually-hidden">Tus datos y tu consulta</legend>
+          <div class="s-form__row">
+            <div class="d-field">
+              <label class="d-label" for="f-nombre">Nombre y apellido</label>
+              <input class="d-input" id="f-nombre" name="nombre" type="text" autocomplete="name" required aria-describedby="nombre-error">
+              <p class="d-error-msg" id="nombre-error" hidden><x-icon name="error" size="16"><span></span></p>
+            </div>
+            <div class="d-field">
+              <label class="d-label" for="f-correo">Correo electrónico</label>
+              <input class="d-input" id="f-correo" name="correo" type="email" autocomplete="email" inputmode="email" required aria-describedby="correo-error">
+              <p class="d-error-msg" id="correo-error" hidden><x-icon name="error" size="16"><span></span></p>
+            </div>
+          </div>
+          <div class="s-form__row">
+            <div class="d-field">
+              <label class="d-label" for="f-telefono">Teléfono <span class="s-opt">(opcional)</span></label>
+              <input class="d-input" id="f-telefono" name="telefono" type="tel" autocomplete="tel" inputmode="tel" placeholder="099 123 456" aria-describedby="telefono-error">
+              <p class="d-error-msg" id="telefono-error" hidden><x-icon name="error" size="16"><span></span></p>
+            </div>
+            <div class="d-field">
+              <label class="d-label" for="f-motivo">Motivo</label>
+              <select class="d-select" id="f-motivo" name="motivo" required aria-describedby="motivo-error">
+                <option value="">Elegí una opción</option>
+                <option value="comercial">Consulta comercial</option>
+                <option value="estaciones">Estaciones de servicio</option>
+                <option value="combustibles">Combustibles para empresas</option>
+                <option value="aviacion">Combustible de aviación</option>
+                <option value="lubricantes">Lubricantes Mobil y Centro Técnico</option>
+                <option value="fertec">Fertilizantes FERTEC</option>
+                <option value="promociones">Promociones</option>
+                <option value="otro">Otro tema</option>
+              </select>
+              <p class="d-error-msg" id="motivo-error" hidden><x-icon name="error" size="16"><span></span></p>
+            </div>
+          </div>
+          <div class="d-field">
+            <label class="d-label" for="f-mensaje">Tu consulta</label>
+            <textarea class="d-textarea" id="f-mensaje" name="mensaje" rows="5" maxlength="1000" required aria-describedby="mensaje-error mensaje-count"></textarea>
+            <p class="s-form__count" id="mensaje-count" data-count-chars aria-live="off">0 / 1.000</p>
+            <p class="d-error-msg" id="mensaje-error" hidden><x-icon name="error" size="16"><span></span></p>
+          </div>
+          <div class="d-field">
+            <label class="d-check" for="f-privacidad"><input id="f-privacidad" name="privacidad" type="checkbox" value="acepto" required aria-describedby="privacidad-error"><span>Leí y acepto la <a href="https://www.disagrupo.com.uy/Content/static/pp_cond_DIUR_v1.pdf" target="_blank" rel="noopener">política de privacidad</a>.</span></label>
+            <p class="d-error-msg" id="privacidad-error" hidden><x-icon name="error" size="16"><span></span></p>
+          </div>
+          <div class="s-hp" aria-hidden="true"><label for="f-web">No completar</label><input id="f-web" name="empresa_web" type="text" tabindex="-1" autocomplete="off"></div>
+        </fieldset>
+
+        <div class="d-alert d-alert--error" data-form-failure role="alert" tabindex="-1" hidden>
+          <x-icon name="error"><p>No pudimos enviar tu consulta. Probá de nuevo en unos segundos o escribinos a <a href="mailto:uruguay@disagrupo.uy">uruguay@disagrupo.uy</a>.</p>
+        </div>
+
+        <div class="s-form__foot">
+          <p class="s-form__note">Te respondemos al correo que nos dejes. Tus datos se usan solo para responder tu consulta.</p>
+          <button class="d-btn d-btn--lg" type="submit">Enviar consulta</button>
+        </div>
+      </form>
+
+      <div class="s-success" data-form-success hidden>
+        <span class="s-success__bird" aria-hidden="true"><svg viewBox="58 150 160 135" focusable="false"><use href="#lg-colibri"/></svg></span>
+        <h2 class="d-h3">¡Gracias, <span data-success-name></span>!</h2>
+        <p>Recibimos tu consulta. Te va a responder el área de <strong data-success-area></strong>.</p>
+        <button class="d-btn d-btn--secondary" type="button" data-form-again>Enviar otra consulta</button>
+      </div>
+    </div>
+
+    <aside class="s-direct" aria-labelledby="t-direct">
+      <h2 class="d-h4" id="t-direct">Gestión Comercial</h2>
+      <a class="s-direct__item" href="tel:+59822009920,55109"><x-icon name="telefono" bi><span><small>Teléfono</small><strong>2200 9920 int. 55109</strong></span></a>
+      <a class="s-direct__item" href="mailto:uruguay@disagrupo.uy"><x-icon name="correo" bi><span><small>Correo</small><strong>uruguay@disagrupo.uy</strong></span></a>
+      <a class="s-direct__item" href="https://www.google.com/maps/search/?api=1&amp;query=San%20Fructuoso%20927%2C%20Montevideo%2C%20Uruguay" target="_blank" rel="noopener"><x-icon name="ubicacion" bi><span><small>Dirección · ver en el mapa</small><strong>San Fructuoso 927, Montevideo</strong></span></a>
+      <div class="s-direct__item s-direct__item--alert"><x-icon name="alerta" bi><span><small>Emergencias con productos</small><strong><a href="tel:+59822007185">2200 7185</a> · CIAT <a href="tel:1722">1722</a></strong></span></div>
+      <div class="s-direct__social">
+        <p class="d-overline">Seguinos</p>
+        <ul class="s-social s-social--light">
+          <li><a href="https://www.facebook.com/DisaUY" target="_blank" rel="noopener"><x-icon name="facebook" label="Facebook de DISA Uruguay"></a></li>
+          <li><a href="https://www.instagram.com/disauruguay" target="_blank" rel="noopener"><x-icon name="instagram" label="Instagram de DISA Uruguay"></a></li>
+          <li><a href="https://www.youtube.com/channel/UCEPfazo0s3bL2FIDulYUs9g" target="_blank" rel="noopener"><x-icon name="youtube" label="Canal de YouTube de DISA Uruguay"></a></li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+</section>
+<!-- ===== FIN Formulario y contacto directo ===== -->
+
+<!-- ===== INICIO Sedes ===== -->
+<section class="d-section s-section--soft" aria-labelledby="t-sedes">
+  <div class="d-container">
+    <div class="s-section-head">
+      <p class="d-overline" data-reveal="fade-up">Sedes principales</p>
+      <h2 class="d-h2 d-split" id="t-sedes">Cada consulta, a su equipo</h2>
+    </div>
+    <ul class="s-sedes" data-stagger>
+      <li><article class="s-sede">
+        <x-picto name="centro-tecnico" size="56">
+        <h3>Centro Técnico</h3>
+        <ul>
+          <li><x-icon name="telefono"><a href="tel:+59822009920,55175">2200 9920 int. 55175</a></li>
+          <li><x-icon name="correo"><a href="mailto:centro.tecnico.uy@disagrupo.uy">centro.tecnico.uy@disagrupo.uy</a></li>
+          <li><x-icon name="ubicacion"><span>San Fructuoso 927, Montevideo</span></li>
+        </ul>
+      </article></li>
+      <li><article class="s-sede">
+        <x-picto name="aviacion" size="56">
+        <h3>Planta Aviación</h3>
+        <ul>
+          <li><x-icon name="telefono"><a href="tel:+59822009920,55147">2200 9920 int. 55147</a></li>
+          <li><x-icon name="correo"><a href="mailto:aviacion.uruguay@disagrupo.uy">aviacion.uruguay@disagrupo.uy</a></li>
+          <li><x-icon name="ubicacion"><span>Ruta 101 km 19,500, Canelones</span></li>
+        </ul>
+      </article></li>
+      <li><article class="s-sede">
+        <x-picto name="combustibles" size="56">
+        <h3>Planta La Tablada</h3>
+        <ul>
+          <li><x-icon name="telefono"><a href="tel:+59822009920,55151">2200 9920 int. 55151</a></li>
+          <li><x-icon name="correo"><a href="mailto:combs.uruguay@disagrupo.uy">combs.uruguay@disagrupo.uy</a></li>
+          <li><x-icon name="ubicacion"><span>Camino Francisco Lecocq 989, Montevideo</span></li>
+        </ul>
+      </article></li>
+      <li><article class="s-sede">
+        <x-picto name="flotas" size="56">
+        <h3>Oficinas Planta Bella Vista</h3>
+        <ul>
+          <li><x-icon name="telefono"><a href="tel:+59822009920,55109">2200 9920 int. 55109</a></li>
+          <li><x-icon name="correo"><a href="mailto:uruguay@disagrupo.uy">uruguay@disagrupo.uy</a></li>
+          <li><x-icon name="ubicacion"><span>San Fructuoso 927, Montevideo</span></li>
+        </ul>
+      </article></li>
+      <li><article class="s-sede">
+        <x-picto name="agro" size="56">
+        <h3>Fertilizantes FERTEC</h3>
+        <ul>
+          <li><x-icon name="correo"><a href="mailto:fertec@disagrupo.uy">fertec@disagrupo.uy</a></li>
+          <li><x-icon name="info"><a href="fertec.html">Conocé FERTEC</a></li>
+        </ul>
+      </article></li>
+    </ul>
+  </div>
+</section>
+<!-- ===== FIN Sedes ===== -->
